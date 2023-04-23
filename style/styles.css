@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    font-family: 'courier_primeregular', 'Courier New', monospace; 
+    background-image: url('../src/background-pattern.jpg');
+}
+
+a {
+    color: white !important;
+}
+
+a:hover {
+    font-family: 'courier_primebold';
+}
+
+@font-face {
+    font-family: 'courier_primebold';
+    src: url('../courrierprime/courierprime-bold-webfont.woff2') format('woff2'),
+         url('../courrierprime/courierprime-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'courier_primeregular';
+    src: url('../courrierprime/courierprime-regular-webfont.woff2') format('woff2'),
+         url('../courrierprime/courierprime-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
